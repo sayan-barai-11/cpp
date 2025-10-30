@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+ int m;
+    cout<<"enter rows :";
+    cin>>m;
+    int n;
+    cout<<"enter coloums: ";
+    cin>>n;
+    for (int i= 1;i<=m;i++){
+        for (int j =1;j<=i;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
+    
